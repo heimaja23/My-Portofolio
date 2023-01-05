@@ -690,10 +690,6 @@ video {
   height: 8rem;
 }
 
-.h-3 {
-  height: 0.75rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -753,10 +749,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-items-center {
-  justify-items: center;
 }
 
 .self-end {
@@ -875,6 +867,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pt-36 {
@@ -1072,30 +1069,6 @@ body{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.placeholder\:mt-0::-moz-placeholder {
-  margin-top: 0px;
-}
-
-.placeholder\:mt-0::placeholder {
-  margin-top: 0px;
-}
-
-.placeholder\:items-center::-moz-placeholder {
-  align-items: center;
-}
-
-.placeholder\:items-center::placeholder {
-  align-items: center;
-}
-
-.placeholder\:pt-0::-moz-placeholder {
-  padding-top: 0px;
-}
-
-.placeholder\:pt-0::placeholder {
-  padding-top: 0px;
-}
-
 .hover\:border-TP:hover {
   --tw-border-opacity: 1;
   border-color: rgb(20 184 166 / var(--tw-border-opacity));
@@ -1109,6 +1082,11 @@ body{
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-TP:hover {
+  --tw-text-opacity: 1;
+  color: rgb(20 184 166 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-80:hover {
@@ -1221,34 +1199,14 @@ body{
     width: 66.666667%;
   }
 
-  .lg\:w-auto {
-    width: auto;
-  }
-
   .lg\:max-w-full {
     max-width: 100%;
-  }
-
-  .lg\:max-w-xl {
-    max-width: 36rem;
   }
 
   .lg\:scale-125 {
     --tw-scale-x: 1.25;
     --tw-scale-y: 1.25;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:items-center {
-    align-items: center;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
-  }
-
-  .lg\:justify-items-center {
-    justify-items: center;
   }
 
   .lg\:rounded-none {
